@@ -308,6 +308,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
 let g:airline_skip_empty_sections = 1
 
+
 "*****************************************************************************
 "" Abbreviations
 "*****************************************************************************
@@ -467,6 +468,7 @@ let g:syntastic_style_error_symbol = '✗'
 let g:syntastic_style_warning_symbol = '⚠'
 let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
+let g:syntastic_loc_list_height = 5
 
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
