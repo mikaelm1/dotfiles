@@ -142,6 +142,7 @@ set fileencodings=utf-8
 set bomb
 set binary
 set ttyfast
+set mouse=a
 
 "" Fix backspace indent
 set backspace=indent,eol,start
