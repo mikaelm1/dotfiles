@@ -117,6 +117,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'davidhalter/jedi-vim'
 Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
 Plug 'zchee/deoplete-jedi'
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
 "*****************************************************************************
 "*****************************************************************************
@@ -216,7 +217,6 @@ else
   let g:indentLine_char = '┆'
   let g:indentLine_faster = 1
 
-  
   if $COLORTERM == 'gnome-terminal'
     set term=gnome-256color
   else
