@@ -117,7 +117,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'davidhalter/jedi-vim'
 Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
 Plug 'zchee/deoplete-jedi'
-Plug 'python-mode/python-mode', { 'branch': 'develop' }
+"Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
 "*****************************************************************************
 "*****************************************************************************
@@ -431,6 +431,7 @@ let g:syntastic_style_warning_symbol = '⚠'
 let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_loc_list_height = 5
+let g:syntastic_check_on_wq = 0
 
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
